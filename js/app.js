@@ -76,9 +76,9 @@ function init() {
                   */
                  entries.forEach(function(entry) {
                    newEntry = {
-                     title: entry.getElementsByTagName('title')[0].innerHTML,
-                     link: entry.getElementsByTagName('link')[0].innerHTML,
-                     publishDate: entry.getElementsByTagName('pubDate')[0].innerHTML
+                     title: entry.getElementsByTagName('title')[0].textContent,
+                     link: entry.getElementsByTagName('link')[0].textContent,
+                     publishDate: entry.getElementsByTagName('pubDate')[0].textContent
                    }
                    container.append(entryTemplate(newEntry));
                  });
