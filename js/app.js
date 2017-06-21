@@ -18,14 +18,20 @@ var allFeeds = [
         name: 'Udacity Blogs',
         url: 'https://blog.udacity.com/feed'
     }, {
+        name: 'Linear Digressions',
+        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+    }, {
         name: 'HTML5 Rocks',
         url: 'https://www.html5rocks.com/en/sitemap.xml'
+    }, {
+        name: 'Mozilla Developer Networks Guide',
+        url: 'https://developer.mozilla.org/en-US/docs/feeds/rss/tag/Guide'
     }, {
         name: 'Open AI',
         url: 'https://blog.openai.com/rss/'
     }, {
-        name: 'Linear Digressions',
-        url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        name: 'DeepLearning.Net',
+        url: 'http://deeplearning.net/feed/'
     }
 ];
 
