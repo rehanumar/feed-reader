@@ -32,6 +32,18 @@ var allFeeds = [
     }, {
         name: 'DeepLearning.Net',
         url: 'http://deeplearning.net/feed/'
+    }, {
+      name: 'DAWN News',
+      url: 'http://www.dawn.com/feeds/home'
+    }, {
+      name: 'Business Insider',
+      url: 'http://www.businessinsider.com/rss'
+    }, {
+      name: 'Business Plus TV',
+      url: 'http://www.businessplustv.pk/feed/'
+    }, {
+      name: 'Business Recorder',
+      url: 'http://www.brecorder.com/feed/'
     }
 ];
 
