@@ -44,6 +44,9 @@ var allFeeds = [
     }, {
       name: 'Business Recorder',
       url: 'http://www.brecorder.com/feed/'
+    }, {
+      name: 'Express Tribune',
+      url: 'https://tribune.com.pk/feed/'
     }
 ];
 
